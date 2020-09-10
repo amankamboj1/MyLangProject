@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reading helper</title>
+        <style>
+            h1 {
+            font-size: 100px;
+            }
+
+            h2 {
+            font-size: 70px;
+            }
+
+            h3 {
+            font-size: 60px;
+            }
+
+            h4 {
+            font-size: 150px;
+            }
+
+            .img {
+              object-fit:cover;
+            }
+
+            .img1 {
+              width:500px;
+            }
+
+            .img2 {
+              width:650px;
+            }
+
+
+            .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            }
+
+            .button1 {
+            font-size: 70px;
+            background-color: blue; 
+            color: white; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            .button2 {
+            font-size: 100px;
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button2:active {
+            background-color: #4CAF50;
+            color: white;
+            }
+            </style>
+
+            <script>
+            function openMainPage() {
+              window.open("elephant.html", "_self");
+            }
+
+            function PlaySound(sound) {
+                sound.play()
+            }
+            </script>
+    </head>
+    <body>
+        <h1>Elephant Story Words</h1>
+        <button class="button button1" onclick="openMainPage()">Back</button>
+        <h2>Click on words below to listen audio</h2>
+        <audio id="audio1" src="../audio/if.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">假如 If</button>
+        <br>
+        <audio id="audio2" src="../audio/elephant.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">象 Elephant</button>
+        <br>
+        <audio id="audio3" src="../audio/friend.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">朋友 Friend</button>
+        <br>
+        <audio id="audio4" src="../audio/dog.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">狗 Dog</button>
+        <br>
+        <audio id="audio5" src="../audio/protect.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">保护 Protect</button>
+        <br>
+        <audio id="audio6" src="../audio/schoolBus.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">校车 School bus</button>
+        <br>
+        <audio id="audio7" src="../audio/break.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">坏 Break down</button>
+        <br>
+        <audio id="audio8" src="../audio/carry.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">载 Carry</button>
+        <br>
+        <audio id="audio9" src="../audio/school.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">学校 School</button>
+        <br>
+        <audio id="audio10" src="../audio/swing.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">秋千 Swing</button>
+        <br>
+        <audio id="audio11" src="../audio/allow.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio11'))">让 Allow</button>
+        <br>
+        <audio id="audio12" src="../audio/slide1.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio12'))">溜 Slide</button>
+        <br>
+        <audio id="audio13" src="../audio/slide2.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio13'))">滑梯 Slide</button>
+        <br>
+        <audio id="audio14" src="../audio/ear.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio14'))">耳朵 Ear</button>
+        <br>
+        <audio id="audio15" src="../audio/umbrella.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio15'))">雨伞 Umbrella</button>
+        <br>
+        <audio id="audio16" src="../audio/help.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio16'))">帮 Help</button>
+        <br>
+        <audio id="audio17" src="../audio/bathe.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio17'))">洗澡 Bathe</button>
+        <br>
+        <audio id="audio18" src="../audio/holiday.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio18'))">放假 Take a holiday</button>
+        <br>
+        <audio id="audio19" src="../audio/tour.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio19'))">旅行 Tour</button>
+        <br>
+        <audio id="audio20" src="../audio/accompany.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio20'))">陪 Accompany</button>
+        <br>
+    </body>
+</html>
