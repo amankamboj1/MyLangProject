@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reading helper</title>
+        <style>
+            h1 {
+            font-size: 100px;
+            }
+
+            h2 {
+            font-size: 70px;
+            }
+
+            h3 {
+            font-size: 60px;
+            }
+
+            h4 {
+            font-size: 150px;
+            }
+
+            .img {
+              object-fit:cover;
+            }
+
+            .img1 {
+              width:500px;
+            }
+
+            .img2 {
+              width:650px;
+            }
+
+
+            .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            }
+
+            .button1 {
+            font-size: 70px;
+            background-color: blue; 
+            color: white; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            .button2 {
+            font-size: 100px;
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button2:active {
+            background-color: #4CAF50;
+            color: white;
+            }
+            </style>
+
+            <script>
+            function PlaySound(sound) {
+                sound.play()
+            }
+            </script>
+    </head>
+    <body>
+        <h2>Click on words below to listen audio</h2>
+        <audio id="audio1" src="audio/mountain.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">山 mountain</button>
+        <br>
+        <audio id="audio2" src="audio/flower.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">花 flower</button>
+        <br>
+        <audio id="audio3" src="audio/grass.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">草 grass</button>
+        <br>
+        <audio id="audio4" src="audio/tree.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">树 tree</button>
+        <br>
+        <audio id="audio5" src="audio/water.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">水 water</button>
+        <br>
+        <audio id="audio6" src="audio/throw.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">扔 throw</button>
+        <br>
+        <audio id="audio7" src="audio/change.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">变 change</button>
+        <br>
+        <audio id="audio8" src="../learningpiepages/audio/me.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">我 I</button>
+        <br>
+        <audio id="audio9" src="audio/dig.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">挖 dig</button>
+        <br>
+        <audio id="audio10" src="audio/knock.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">敲 knock</button>
+        <br>
+        <audio id="audio11" src="audio/loose.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio11'))">丟 loose</button>
+        <br>
+        <audio id="audio12" src="audio/paper.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio12'))">纸 paper</button>
+        <br>
+        <audio id="audio13" src="../elephant/audio/help.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio13'))">帮 help</button>
+        <br>
+        <audio id="audio14" src="audio/also.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio14'))">还 also</button>
+        <br>
+        <audio id="audio15" src="audio/start.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio15'))">开始 start</button>
+        <br>
+        <audio id="audio16" src="audio/put.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio16'))">把 put</button>
+        <br>
+        <audio id="audio17" src="audio/beautiful.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio17'))">美丽的 beautiful</button>
+    </body>
+</html>

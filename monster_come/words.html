@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reading helper</title>
+        <style>
+            h1 {
+            font-size: 100px;
+            }
+
+            h2 {
+            font-size: 70px;
+            }
+
+            h3 {
+            font-size: 60px;
+            }
+
+            h4 {
+            font-size: 150px;
+            }
+
+            .img {
+              object-fit:cover;
+            }
+
+            .img1 {
+              width:500px;
+            }
+
+            .img2 {
+              width:650px;
+            }
+
+
+            .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            }
+
+            .button1 {
+            font-size: 70px;
+            background-color: blue; 
+            color: white; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            .button2 {
+            font-size: 100px;
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button2:active {
+            background-color: #4CAF50;
+            color: white;
+            }
+            </style>
+
+            <script>
+
+            function PlaySound(sound) {
+                sound.play()
+            }
+            </script>
+    </head>
+    <body>
+        <h2>Click on words below to listen audio</h2>
+        <audio id="audio1" src="audio/family.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">怪物 Monster</button>
+        <br>
+        <audio id="audio2" src="audio/grandpa.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">来 Come</button>
+        <br>
+        <audio id="audio3" src="audio/grandma.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">这是 This is</button>
+        <br>
+        <audio id="audio4" src="audio/mom.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">岛 Island</button>
+        <br>
+        <audio id="audio5" src="audio/dad.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">爸 Papa</button>
+        <br>
+        <audio id="audio6" src="audio/brother.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">哥 Brother</button>
+        <br>
+        <audio id="audio7" src="audio/younger_brother.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">弟 Younger brother</button>
+        <br>
+        <audio id="audio8" src="audio/older_sister.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">姐 Older Sister</button>
+        <br>
+        <audio id="audio9" src="audio/younger_sister.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">妹 Younger Sister</button>
+        <br>
+        <audio id="audio10" src="audio/me.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">我 Me</button>
+        <br>
+        <audio id="audio11" src="audio/you.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio11'))">你 You</button>
+        <br>
+        <audio id="audio12" src="audio/male.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio12'))">男 Male</button>
+        <br>
+        <audio id="audio13" src="audio/female.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio13'))">女 Female</button>
+        <br>
+    </body>
+</html>
