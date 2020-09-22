@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reading helper</title>
+        <style>
+            h1 {
+            font-size: 100px;
+            }
+
+            h2 {
+            font-size: 70px;
+            }
+
+            h3 {
+            font-size: 60px;
+            }
+
+            h4 {
+            font-size: 150px;
+            }
+
+            .img {
+              object-fit:cover;
+            }
+
+            .img1 {
+              width:500px;
+            }
+
+            .img2 {
+              width:650px;
+            }
+
+
+            .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            font-family: 'WenQuanYi Zen Hei';
+            }
+
+            .button1 {
+            font-size: 70px;
+            background-color: blue; 
+            color: white; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            .button2 {
+            font-size: 100px;
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button2:active {
+            background-color: #4CAF50;
+            color: white;
+            }
+            </style>
+
+            <script>
+            function PlaySound(sound) {
+                sound.play()
+            }
+            </script>
+    </head>
+    <body>
+        <h2>Click on words below to listen audio</h2>
+        <audio id="audio1" src="audio/glass.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">玻璃 glass</button>
+        <br>
+        <audio id="audio2" src="audio/thing.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">东西 thing</button>
+        <br>
+        <audio id="audio3" src="audio/material.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">製料 material</button>
+        <br>
+        <audio id="audio4" src="audio/know.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">知道 know</button>
+        <br>
+        <audio id="audio5" src="audio/metal.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">金属 metal</button>
+        <br>
+        <audio id="audio6" src="audio/like.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">好像 like</button>
+        <br>
+        <audio id="audio7" src="audio/use.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">利用 use</button>
+        <br>
+        <audio id="audio8" src="audio/always.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">总是 always</button>
+        <br>
+        <audio id="audio9" src="audio/believe.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">相信 believe</button>
+        <br>
+        <audio id="audio10" src="audio/can.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">可以 can</button>
+        <br>
+    </body>
+</html>
