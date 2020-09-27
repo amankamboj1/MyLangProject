@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reading helper</title>
+        <style>
+            h1 {
+            font-size: 100px;
+            }
+
+            h2 {
+            font-size: 70px;
+            }
+
+            h3 {
+            font-size: 60px;
+            }
+
+            h4 {
+            font-size: 150px;
+            }
+
+            .img {
+              object-fit:cover;
+            }
+
+            .img1 {
+              width:500px;
+            }
+
+            .img2 {
+              width:650px;
+            }
+
+
+            .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            font-family: 'WenQuanYi Zen Hei';
+            }
+
+            .button1 {
+            font-size: 70px;
+            background-color: blue; 
+            color: white; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            .button2 {
+            font-size: 100px;
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button2:active {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            input.largerCheckbox { 
+                width: 100px; 
+                height: 100px; 
+            } 
+
+            </style>
+
+            <script>
+            function PlaySound(sound) {
+                sound.play()
+            }
+
+            function PlaySoundLoop(sound) {
+                if(sound.loop == false){
+                  sound.loop = true;
+                  sound.play();
+                } else {
+                  sound.loop = false;
+                }
+            }
+
+            </script>
+    </head>
+    <body>
+        <h2>Click on words below to listen audio</h2>
+        <audio id="audio1" src="audio/monster.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">怪物 monster</button>
+        <br>
+        <audio id="audio2" src="audio/surprise.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">惊喜 surprise</button>
+        <br>
+        <audio id="audio3" src="audio/drive away.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">赶走 drive away</button>
+        <br>
+        <audio id="audio4" src="audio/see.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">看见 see</button>
+        <br>
+        <audio id="audio5" src="audio/big hole.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">大洞 big hole</button>
+        <br>
+        <audio id="audio6" src="audio/at last.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">最后 at last</button>
+        <br>
+        <audio id="audio7" src="audio/happy.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">开心 happy</button>
+        <br>
+        <audio id="audio8" src="audio/sad.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">伤心 sad</button>
+        <br>
+        <audio id="audio9" src="audio/greedy.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">贪心 greedy</button>
+        <br>
+        <audio id="audio10" src="audio/method.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">方法 method</button>
+        <br>
+    </body>
+</html>

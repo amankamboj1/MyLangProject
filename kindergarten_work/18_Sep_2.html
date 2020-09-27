@@ -64,6 +64,11 @@
             background-color: #4CAF50;
             color: white;
             }
+
+            input.largerCheckbox { 
+                width: 100px; 
+                height: 100px; 
+            } 
             </style>
 
             <script>
@@ -85,7 +90,7 @@
         <h2>Click on words below to listen audio</h2>
         <audio id="audio1" src="audio/brave.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">勇敢的 brave</button>
-        <button class="button button1" onclick="PlaySoundLoop(document.getElementById('audio1'))"><img src="../images/download.jpeg" class="img3" /></button>
+        <input type="checkbox" class="largerCheckbox" onclick="PlaySoundLoop(document.getElementById('audio1'))">
         <br>
         <audio id="audio2" src="audio/bottles.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">瓶瓶罐罐 bottles</button>
