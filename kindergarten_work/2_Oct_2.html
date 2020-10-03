@@ -93,6 +93,10 @@
                 var sound8 = document.getElementById('audio8');
                 var sound9 = document.getElementById('audio9');
                 var sound10 = document.getElementById('audio10');
+                var sound11 = document.getElementById('audio11');
+                var sound12 = document.getElementById('audio12');
+                var sound13 = document.getElementById('audio13');
+                var sound14 = document.getElementById('audio14');
                 sound1.play();
                 sound1.onended = function() {
                   sound2.play();
@@ -121,6 +125,18 @@
                 sound9.onended = function() {
                   sound10.play();
                 }
+                sound10.onended = function() {
+                  sound11.play();
+                }
+                sound11.onended = function() {
+                  sound12.play();
+                }
+                sound12.onended = function() {
+                  sound13.play();
+                }
+                sound13.onended = function() {
+                  sound14.play();
+                }
             }
 
             </script>
@@ -130,34 +146,46 @@
         <button class="button button2" onclick="PlaySoundLoop()">Play All</button>
         <br>
         <audio id="audio1" src="audio/monster.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">怪物 monster</button>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">又 again</button>
         <br>
         <audio id="audio2" src="audio/surprise.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">惊喜 surprise</button>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">也 also</button>
         <br>
         <audio id="audio3" src="audio/drive away.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">赶走 drive away</button>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">太 very</button>
         <br>
         <audio id="audio4" src="audio/see.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">看见 see</button>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">狠 ruthless</button>
         <br>
         <audio id="audio5" src="audio/big hole.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">大洞 big hole</button>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">冷 cold</button>
         <br>
         <audio id="audio6" src="audio/at last.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">最后 at last</button>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">热 heat</button>
         <br>
-        <audio id="audio7" src="audio/happy.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">开心 happy</button>
+        <audio id="audio7" src="../learningpiepages/audio/tall.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">高 tall</button>
         <br>
         <audio id="audio8" src="audio/sad.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">伤心 sad</button>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">矮 short</button>
         <br>
-        <audio id="audio9" src="audio/greedy.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">贪心 greedy</button>
+        <audio id="audio9" src="../elephant/audio/help.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">帮 help</button>
         <br>
         <audio id="audio10" src="audio/method.m4a" autostart="false" ></audio>
-        <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">方法 method</button>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">站起来 stand up</button>
+        <br>
+        <audio id="audio11" src="audio/at last.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">胖 fat</button>
+        <br>
+        <audio id="audio12" src="audio/happy.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">瘦 thin</button>
+        <br>
+        <audio id="audio13" src="audio/sad.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">白色 white colour</button>
+        <br>
+        <audio id="audio14" src="audio/greedy.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">直到有一天 until one day</button>
         <br>
     </body>
 </html>
