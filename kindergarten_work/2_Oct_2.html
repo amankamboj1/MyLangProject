@@ -82,109 +82,50 @@
                 sound.play()
             }
 
-            function PlaySoundLoop() {
-                var sound1 = document.getElementById('audio1');
-                var sound2 = document.getElementById('audio2');
-                var sound3 = document.getElementById('audio3');
-                var sound4 = document.getElementById('audio4');
-                var sound5 = document.getElementById('audio5');
-                var sound6 = document.getElementById('audio6');
-                var sound7 = document.getElementById('audio7');
-                var sound8 = document.getElementById('audio8');
-                var sound9 = document.getElementById('audio9');
-                var sound10 = document.getElementById('audio10');
-                var sound11 = document.getElementById('audio11');
-                var sound12 = document.getElementById('audio12');
-                var sound13 = document.getElementById('audio13');
-                var sound14 = document.getElementById('audio14');
-                sound1.play();
-                sound1.onended = function() {
-                  sound2.play();
-                }
-                sound2.onended = function() {
-                  sound3.play();
-                }
-                sound3.onended = function() {
-                  sound4.play();
-                }
-                sound4.onended = function() {
-                  sound5.play();
-                }
-                sound5.onended = function() {
-                  sound6.play();
-                }
-                sound6.onended = function() {
-                  sound7.play();
-                }
-                sound7.onended = function() {
-                  sound8.play();
-                }
-                sound8.onended = function() {
-                  sound9.play();
-                }
-                sound9.onended = function() {
-                  sound10.play();
-                }
-                sound10.onended = function() {
-                  sound11.play();
-                }
-                sound11.onended = function() {
-                  sound12.play();
-                }
-                sound12.onended = function() {
-                  sound13.play();
-                }
-                sound13.onended = function() {
-                  sound14.play();
-                }
-            }
-
             </script>
     </head>
     <body>
         <h2>Click on words below to listen audio</h2>
-        <button class="button button2" onclick="PlaySoundLoop()">Play All</button>
-        <br>
-        <audio id="audio1" src="audio/monster.m4a" autostart="false" ></audio>
+        <audio id="audio1" src="audio/again.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">又 again</button>
         <br>
-        <audio id="audio2" src="audio/surprise.m4a" autostart="false" ></audio>
+        <audio id="audio2" src="audio/also.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">也 also</button>
         <br>
-        <audio id="audio3" src="audio/drive away.m4a" autostart="false" ></audio>
+        <audio id="audio3" src="audio/very.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">太 very</button>
         <br>
-        <audio id="audio4" src="audio/see.m4a" autostart="false" ></audio>
+        <audio id="audio4" src="audio/ruthless.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">狠 ruthless</button>
         <br>
-        <audio id="audio5" src="audio/big hole.m4a" autostart="false" ></audio>
+        <audio id="audio5" src="audio/cold.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">冷 cold</button>
         <br>
-        <audio id="audio6" src="audio/at last.m4a" autostart="false" ></audio>
+        <audio id="audio6" src="audio/heat.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">热 heat</button>
         <br>
         <audio id="audio7" src="../learningpiepages/audio/tall.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">高 tall</button>
         <br>
-        <audio id="audio8" src="audio/sad.m4a" autostart="false" ></audio>
+        <audio id="audio8" src="audio/short.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">矮 short</button>
         <br>
         <audio id="audio9" src="../elephant/audio/help.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">帮 help</button>
         <br>
-        <audio id="audio10" src="audio/method.m4a" autostart="false" ></audio>
+        <audio id="audio10" src="audio/stand_up2.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">站起来 stand up</button>
         <br>
-        <audio id="audio11" src="audio/at last.m4a" autostart="false" ></audio>
+        <audio id="audio11" src="audio/fat.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">胖 fat</button>
         <br>
-        <audio id="audio12" src="audio/happy.m4a" autostart="false" ></audio>
+        <audio id="audio12" src="audio/thin.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">瘦 thin</button>
         <br>
-        <audio id="audio13" src="audio/sad.m4a" autostart="false" ></audio>
+        <audio id="audio13" src="audio/white_color.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">白色 white colour</button>
         <br>
-        <audio id="audio14" src="audio/greedy.m4a" autostart="false" ></audio>
+        <audio id="audio14" src="audio/until_one_day.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">直到有一天 until one day</button>
         <br>
     </body>
