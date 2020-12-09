@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reading helper</title>
+        <style>
+            h1 {
+            font-size: 100px;
+            }
+
+            h2 {
+            font-size: 70px;
+            }
+
+            h3 {
+            font-size: 60px;
+            }
+
+            h4 {
+            font-size: 150px;
+            }
+
+            .img {
+              object-fit:cover;
+            }
+
+            .img1 {
+              width:500px;
+            }
+
+            .img2 {
+              width:150px;
+            }
+
+
+            .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            font-family: 'WenQuanYi Zen Hei';
+            }
+
+            .button1 {
+            font-size: 40px;
+            background-color: blue; 
+            color: white; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+            }
+
+            .button2 {
+            font-size: 60px;
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+            }
+
+            .button2:active {
+            background-color: #4CAF50;
+            color: white;
+            }
+            </style>
+
+            <script>
+            function PlaySound(sound) {
+                sound.play()
+            }
+            </script>
+    </head>
+    <body>
+        <h2>Click on words below to listen audio</h2>
+        <img src="../images/pig_horse_learn.jpg" class="img2" />
+        <br>
+        <audio id="audio1" src="../audio/pig.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">猪</button>
+        <br>
+        <audio id="audio2" src="../audio/learn.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">学</button>
+        <br>
+        <audio id="audio3" src="../audio/skin.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio3'))">本领</button>
+        <br>
+        <audio id="audio4" src="../audio/duck.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio4'))">鸭</button>
+        <br>
+        <audio id="audio5" src="../audio/swim.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio5'))">游水</button>
+        <br>
+        <audio id="audio6" src="../audio/look_after_house.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio6'))">看门</button>
+        <br>
+        <audio id="audio7" src="../audio/cat.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio7'))">猫</button>
+        <br>
+        <audio id="audio8" src="../audio/catch.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio8'))">捉</button>
+        <br>
+        <audio id="audio9" src="../audio/old_horse.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio9'))">老马</button>
+        <br>
+        <audio id="audio10" src="../audio/pull.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio10'))">拉</button>
+        <br>
+        <audio id="audio11" src="../audio/car.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio11'))">车</button>
+        <br>
+        <audio id="audio12" src="../audio/any.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio12'))">什么</button>
+        <br>
+        <audio id="audio13" src="../audio/it_animal.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio13'))">它</button>
+        <br>
+        <audio id="audio14" src="../../kindergarten_work/audio/sad.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio14'))">伤心</button>
+        <br>
+        <audio id="audio15" src="../audio/roll.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio15'))">滚</button>
+        <br>
+        <audio id="audio16" src="../audio/mountain_slope.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio16'))">山坡</button>
+        <br>
+        <audio id="audio17" src="../audio/fast.m4a" autostart="false" ></audio>
+        <button class="button button2" onclick="PlaySound(document.getElementById('audio17'))">快</button>
+    </body>
+</html>
