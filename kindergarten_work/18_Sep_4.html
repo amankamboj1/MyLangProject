@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Reading helper</title>
         <style>
             h1 {
@@ -47,7 +48,7 @@
             }
 
             .button1 {
-            font-size: 70px;
+            font-size: 40px;
             background-color: blue; 
             color: white; 
             border: 2px solid #4CAF50;
@@ -59,7 +60,7 @@
             }
 
             .button2 {
-            font-size: 100px;
+            font-size: 60px;
             background-color: white; 
             color: black; 
             border: 2px solid #4CAF50;
@@ -70,11 +71,6 @@
             color: white;
             }
 
-            input.largerCheckbox { 
-                width: 100px; 
-                height: 100px; 
-            } 
-
             </style>
 
             <script>
@@ -82,51 +78,54 @@
                 sound.play()
             }
 
-            function PlaySoundLoop() {
-                var sound1 = document.getElementById('audio1');
-                var sound2 = document.getElementById('audio2');
-                var sound3 = document.getElementById('audio3');
-                var sound4 = document.getElementById('audio4');
-                var sound5 = document.getElementById('audio5');
-                var sound6 = document.getElementById('audio6');
-                var sound7 = document.getElementById('audio7');
-                var sound8 = document.getElementById('audio8');
-                var sound9 = document.getElementById('audio9');
-                var sound10 = document.getElementById('audio10');
-                sound1.play();
-                sound1.onended = function() {
-                  sound2.play();
-                }
-                sound2.onended = function() {
-                  sound3.play();
-                }
-                sound3.onended = function() {
-                  sound4.play();
-                }
-                sound4.onended = function() {
-                  sound5.play();
-                }
-                sound5.onended = function() {
-                  sound6.play();
-                }
-                sound6.onended = function() {
-                  sound7.play();
-                }
-                sound7.onended = function() {
-                  sound8.play();
-                }
-                sound8.onended = function() {
-                  sound9.play();
-                }
-                sound9.onended = function() {
-                  sound10.play();
-                }
-            }
+            // function PlaySoundLoop() {
+            //     var sound1 = document.getElementById('audio1');
+            //     var sound2 = document.getElementById('audio2');
+            //     var sound3 = document.getElementById('audio3');
+            //     var sound4 = document.getElementById('audio4');
+            //     var sound5 = document.getElementById('audio5');
+            //     var sound6 = document.getElementById('audio6');
+            //     var sound7 = document.getElementById('audio7');
+            //     var sound8 = document.getElementById('audio8');
+            //     var sound9 = document.getElementById('audio9');
+            //     var sound10 = document.getElementById('audio10');
+            //     sound1.play();
+            //     sound1.onended = function() {
+            //       sound2.play();
+            //     }
+            //     sound2.onended = function() {
+            //       sound3.play();
+            //     }
+            //     sound3.onended = function() {
+            //       sound4.play();
+            //     }
+            //     sound4.onended = function() {
+            //       sound5.play();
+            //     }
+            //     sound5.onended = function() {
+            //       sound6.play();
+            //     }
+            //     sound6.onended = function() {
+            //       sound7.play();
+            //     }
+            //     sound7.onended = function() {
+            //       sound8.play();
+            //     }
+            //     sound8.onended = function() {
+            //       sound9.play();
+            //     }
+            //     sound9.onended = function() {
+            //       sound10.play();
+            //     }
+            // }
 
             </script>
     </head>
     <body>
         <h2>Click on words below to listen audio</h2>
+        <br>
+        <a class="button button1" href="../index.html">Back</a>
+        <br>
         <audio id="audio1" src="audio/monster.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">怪物 monster</button>
         <br>

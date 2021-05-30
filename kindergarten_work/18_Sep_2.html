@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Reading helper</title>
         <style>
             h1 {
@@ -42,7 +43,7 @@
             }
 
             .button1 {
-            font-size: 70px;
+            font-size: 40px;
             background-color: blue; 
             color: white; 
             border: 2px solid #4CAF50;
@@ -54,7 +55,7 @@
             }
 
             .button2 {
-            font-size: 100px;
+            font-size: 60px;
             background-color: white; 
             color: black; 
             border: 2px solid #4CAF50;
@@ -88,9 +89,12 @@
     </head>
     <body>
         <h2>Click on words below to listen audio</h2>
+        <br>
+        <a class="button button1" href="../index.html">Back</a>
+        <br>
         <audio id="audio1" src="audio/brave.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio1'))">勇敢的 brave</button>
-        <input type="checkbox" class="largerCheckbox" onclick="PlaySoundLoop(document.getElementById('audio1'))">
+        <!-- <input type="checkbox" class="largerCheckbox" onclick="PlaySoundLoop(document.getElementById('audio1'))"> -->
         <br>
         <audio id="audio2" src="audio/bottles.m4a" autostart="false" ></audio>
         <button class="button button2" onclick="PlaySound(document.getElementById('audio2'))">瓶瓶罐罐 bottles</button>
