@@ -10,4 +10,6 @@ I was able to help her listen to text she received in homework and get the meani
 # Details
 The project is hosted on S3 bucket in AWS.
 
+The feedback form redirects input to lambda which uses SES to send email to an account to collect the feedback.
+
 It can be accessed directly via S3 hosting URL: http://aryaislearner.com.s3-website-ap-southeast-1.amazonaws.com/
