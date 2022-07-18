@@ -10,4 +10,4 @@ I was able to help her listen to text she received in homework and get the meani
 # Details
 The project is hosted on S3 bucket in AWS.
 
-It can be accessed by URL registered via 'Route53': https://aryaislearner.com 
+It can be accessed directly via S3 hosting URL: http://aryaislearner.com.s3-website-ap-southeast-1.amazonaws.com/
